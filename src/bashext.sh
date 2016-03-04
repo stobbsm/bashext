@@ -2,13 +2,16 @@
 
 bashext_default_path="${HOME}/bin"
 
+## Include configuration file
+source "${HOME}/.bashext.conf"
+
 function _echo_info () {
 	echo "Loading bash_ext extensions..."
 }
 
 function bashext_help () {
 	## Print help info
-	echo "bashext, written by Matthew Stobbs \<matthew@stobbstechnical.com\>, primarily for Matthew Stobbs \<matthew@stobbstechnical.com\>"
+	echo "bashext, written by Matthew Stobbs \<matthew@sproutingcommunications.com\>, primarily for Matthew Stobbs \<matthew@sproutingcommunications.com\>"
 	echo "Liscened under GPL3"
 	echo ""
 	echo ""
